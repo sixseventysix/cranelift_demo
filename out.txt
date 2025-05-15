@@ -1,0 +1,11 @@
+function u0:0(f32, f32) -> f32 apple_aarch64 {
+    sig0 = (f32) -> f32 apple_aarch64
+    fn0 = u0:1 sig0
+
+block0(v0: f32, v1: f32):
+    v2 = call fn0(v1)
+    v3 = fadd v0, v2
+    return v3
+}
+
+f(1.0, 0.5) = 1.4794255
